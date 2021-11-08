@@ -1,0 +1,14 @@
+*{
+    margin: :0px;
+    padding:0px;
+    font-family: Avenir, sans-serif;
+}
+
+head{background-color: black;}
+
+h1{
+    font-family: OCR A Std, monospace;
+    font-size: 4em;
+    color: yellow;
+
+}
