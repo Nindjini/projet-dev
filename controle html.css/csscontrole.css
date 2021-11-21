@@ -7,9 +7,9 @@
 head{background-color: black;}
 
 h1{
-    font-family: OCR A Std, monospace;
-    font-size: 4em;
-    color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10em;
+    color:blue;
 
 }
 
@@ -80,7 +80,7 @@ nav{
 h1{
     width: 100%;
     margin: auto;
-    color: blue;
+    color:yellowgreen;
     text-align: center;
     margin:50px;
 }
@@ -96,7 +96,7 @@ h1{
 #fond{
     color:black;
     background-color:white;
-    background-image:url(fond.jpg);
+    background-image:url(bandeau.webp);
     background-repeat:no-repeat;
     background-position: center top;
     background-size: 100%auto;
@@ -104,7 +104,7 @@ h1{
 
     ul{
         background-color:red;
-        font-size: 1.5em;
+        font-size: 1px;
     }
 
     /*Reset CSS*/
@@ -179,7 +179,7 @@ nav > ul li:hover .sous{
 
 .deroulant>a::after{
     content:"▼"
-    font-size:12px;
+    font-size:10px;
 }
 
 .sous{
@@ -208,10 +208,10 @@ nav ul li{
 body{
     color:black;
     background-color:white;
-    background-image:url(bandeau.png);
+    background-image:url(bandeau.webp);
     background-repeat:no-repeat;
     background-position: center top;
-    background-size: 100%auto;
+    background-size: 100% auto;
 }
 
 .footer{
@@ -263,9 +263,17 @@ body{
 #poupou{
     color:black;
     background-color:white;
-    background-image:url(fond.jpg);
+    background-image:url(bandeau.webp);
     background-repeat:no-repeat;
     background-position: center top;
     background-size: 100%auto;
 
 }
+
+.barrerecherche{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+
